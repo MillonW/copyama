@@ -1,0 +1,12 @@
+# ---- MVP 运行依赖 ----
+PySide6>=6.6            # GUI 框架（若最终选 tkinter 方案，可移除本项）
+Pillow>=10.0            # 图片捕获、缩略图
+# Win32 剪贴板 / 热键 / 窗口枚举一律走标准库 ctypes，不引入 pywin32
+
+# ---- 开发依赖 ----
+pytest>=8.0
+
+# ---- 二期按需启用 ----
+# pytesseract>=0.3.10   # OCR（需系统另装 Tesseract）
+# cryptography>=42.0    # 本地条目加密
+# nuitka>=2.0           # 打包

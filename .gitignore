@@ -1,0 +1,58 @@
+# —— Python ——
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+
+# —— 虚拟环境 ——
+.venv/
+venv/
+env/
+ENV/
+
+# —— 构建产物 ——
+build/
+dist/
+
+# —— PyInstaller 临时 ——
+*.manifest
+*.spec.bak
+
+# —— 编辑器 / IDE ——
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# —— 测试 / 类型检查 / Lint 缓存 ——
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# —— 运行时数据（不应入库）——
+*.db
+*.sqlite3
+*.db-wal
+*.db-shm
+logs/
+*.log
+blobs/
+*.lock
+
+# —— 系统文件 ——
+.DS_Store
+Thumbs.db
+desktop.ini
