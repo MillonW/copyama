@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # Copyama
 
@@ -6,7 +6,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![PySide6](https://img.shields.io/badge/GUI-PySide6-green?logo=qt&logoColor=white)](https://wiki.qt.io/Qt_for_Python)
-[![License](https://img.shields.io/github/license/yourname/copyama?color=orange)](LICENSE)
+[![License](https://img.shields.io/github/license/MillonW/copyama?color=orange)](LICENSE)
 [![Version](https://img.shields.io/badge/version-0.5.0-blueviolet)](pyproject.toml)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey?logo=windows&logoColor=white)]()
 
@@ -33,7 +33,7 @@
 
 ## 📦 下载
 
-从 [Releases](https://github.com/yourname/copyama/releases) 页面下载最新版 `Copyama.zip`，解压后双击 `Copyama.exe` 即可使用，无需安装。
+从 [Releases](https://github.com/MillonW/copyama/releases) 页面下载最新版 `Copyama.zip`，解压后双击 `Copyama.exe` 即可使用，无需安装。
 
 > 单目录绿色版，所有数据保存在 `%APPDATA%/Copyama` 下。
 
@@ -79,7 +79,7 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/yourname/copyama.git
+git clone https://github.com/MillonW/copyama.git
 cd copyama
 
 # 2. 创建虚拟环境（推荐）
